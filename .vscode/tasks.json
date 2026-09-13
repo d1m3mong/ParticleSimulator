@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build ParticleSimulator (Release)",
+      "type": "shell",
+      "command": "cmake",
+      "args": ["--build", "--preset", "msvc-release"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
